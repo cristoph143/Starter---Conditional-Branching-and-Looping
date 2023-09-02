@@ -98,15 +98,19 @@ do
     Console.WriteLine($"You selected menu option {menuSelection}.");
     Console.WriteLine("Press the Enter key to continue");
 
-// pause code execution
-    readResult = Console.ReadLine();
     // Write switch statement for menu selections
     switch (menuSelection)
     {
         case "1":
+            // List all of our current pet information
+            Console.WriteLine("this app feature is coming soon - please check back to see progress.");
+            Console.WriteLine("Press the Enter key to continue.");
             break;
 
         case "2":
+            // List all of our current pet information
+            Console.WriteLine("this app feature is coming soon - please check back to see progress.");
+            Console.WriteLine("Press the Enter key to continue.");
             break;
 
         case "3":
@@ -126,8 +130,6 @@ do
 
         case "8":
             break;
-
-        default:
-            break;
     }
+    readResult = Console.ReadLine();
 } while (menuSelection != "exit");
